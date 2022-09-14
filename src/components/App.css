@@ -1,0 +1,21 @@
+.Heading {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  column-gap: 48px;
+  align-items: center;
+}
+
+.WombatIcon {
+  width: 128px;
+  height: auto;
+  margin: 2rem;
+}
+
+.AppGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 1rem;
+  width: 66%;
+  max-width: 900px;
+  margin: 24px auto;
+}

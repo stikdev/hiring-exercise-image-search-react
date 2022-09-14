@@ -1,0 +1,24 @@
+.SearchResultsSection {
+  background-color: coral;
+  color: white;
+}
+
+.SearchResultsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SearchResultsList li {
+  display: block;
+  margin: 0 0 1rem;
+}
+
+.SearchResultsList li img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}
